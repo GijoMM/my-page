@@ -1218,9 +1218,9 @@ input, select, textarea {
 		cursor: default;
 	}
 
-		ul.icons:hover {
+/* 		ul.icons:hover {
 			color: aqua;
-		}
+		} */
 
 		ul.icons li {
 			display: inline-block;
@@ -1531,6 +1531,7 @@ input, select, textarea {
 			padding: 0% 0% 0% 0%;
 			margin: -2% 0% 0% 0%;
 			color: darkgray;
+			font-size: 90%;
 		}
 
 		.gallery .text {
@@ -1556,6 +1557,7 @@ input, select, textarea {
 				-webkit-transition-delay: 0.05s;
 				-ms-transition-delay: 0.05s;
 				transition-delay: 0.05s;
+				background-color: #a9a9a914;
 				box-shadow: 0 0 6px 0 #272727;
     			border: transparent solid #272727;
 			}
@@ -2265,7 +2267,7 @@ input, select, textarea {
 			}
 
 		.main.dark {
-			color: #ffffff;
+			color: darkgray;
 		}
 
 			.main.dark a {
@@ -2406,10 +2408,12 @@ input, select, textarea {
 
 		#footer a {
 			color: inherit;
+			transition: color 0.2s ease-in-out;
+
 		}
 
 			#footer a:hover {
-				color: silver;
+				color: aqua;
 			}
 
 		#footer ul.menu {
@@ -2421,9 +2425,9 @@ input, select, textarea {
 				font-size: 0.9em;
 				transition: color 0.2s ease-in-out;
 			}
-			#footer:hover ul.menu li {
+/* 			#footer:hover ul.menu li {
 				color: silver;
-			}
+			} */
 
 		@media screen and (max-width: 1000px) {
 
