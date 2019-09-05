@@ -963,14 +963,22 @@ input, select, textarea {
 		width: 100%;
 	}
 
+	.icon-links li { 
+		display: inline; 
+	}
+
 		.icon-links li a {
 			font-size: 1.5em;
-			display: block;
 			padding: 5px;
 			color: #fff;
 			text-decoration: none;
 			text-shadow: 1px 1px 2px #00000066;
 			list-style-type: none;
+			transition: all 0.3s ease-in-out;
+		}
+
+		.icon-links li a:hover {
+			color: aqua;
 		}
 
 	.gallery article:hover .icon-links {
