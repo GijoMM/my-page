@@ -1974,7 +1974,6 @@ input, select, textarea {
 			top: 0;
 			height: 3em;
 			line-height: 3em;
-			cursor: default;
 		}
 
 			#header h1 a {
@@ -2073,6 +2072,7 @@ input, select, textarea {
 					-ms-transition-delay: 0.1s;
 					transition-delay: 0.1s;
 					order: 3;
+					max-height: 215px;
 				}
 	
 				.gallery article:nth-last-child(3n) {
@@ -2089,6 +2089,7 @@ input, select, textarea {
 					-ms-transition-delay: 0.15s;
 					transition-delay: 0.15s;
 					order: 4;
+					margin-bottom: 20px;
 				}
 	
 				.gallery article:nth-last-child(4n) {
@@ -2105,6 +2106,7 @@ input, select, textarea {
 					-ms-transition-delay: 0.2s;
 					transition-delay: 0.2s;
 					order: 2;
+					margin-bottom: 20px;
 				}
 	
 				.gallery article:nth-last-child(5n) {
