@@ -2048,7 +2048,7 @@ input, select, textarea {
 					-webkit-transition-delay: 0.05s;
 					-ms-transition-delay: 0.05s;
 					transition-delay: 0.05s;
-					order: 6;
+					order: 7;
 				}
 	
 				.gallery article:nth-last-child(2n) {
@@ -2056,15 +2056,7 @@ input, select, textarea {
 					-webkit-transition-delay: 0.05s;
 					-ms-transition-delay: 0.05s;
 					transition-delay: 0.05s;
-					order: 5;
-				}
-	
-				.gallery article:nth-last-child(2n) {
-					-moz-transition-delay: 0.1s;
-					-webkit-transition-delay: 0.1s;
-					-ms-transition-delay: 0.1s;
-					transition-delay: 0.1s;
-					order: 5;
+					order: 8;
 				}
 	
 				.gallery article:nth-last-child(3n) {
@@ -2072,11 +2064,19 @@ input, select, textarea {
 					-webkit-transition-delay: 0.1s;
 					-ms-transition-delay: 0.1s;
 					transition-delay: 0.1s;
-					order: 3;
-					max-height: 215px;
+					order: 6;
+					margin-bottom: 20px;
 				}
 	
-				.gallery article:nth-last-child(3n) {
+				.gallery article:nth-last-child(4n) {
+					-moz-transition-delay: 0.1s;
+					-webkit-transition-delay: 0.1s;
+					-ms-transition-delay: 0.1s;
+					transition-delay: 0.1s;
+					order: 5;
+				}
+	
+				.gallery article:nth-last-child(5n) {
 					-moz-transition-delay: 0.15s;
 					-webkit-transition-delay: 0.15s;
 					-ms-transition-delay: 0.15s;
@@ -2084,7 +2084,7 @@ input, select, textarea {
 					order: 3;
 				}
 	
-				.gallery article:nth-last-child(4n) {
+				.gallery article:nth-last-child(6n) {
 					-moz-transition-delay: 0.15s;
 					-webkit-transition-delay: 0.15s;
 					-ms-transition-delay: 0.15s;
@@ -2093,15 +2093,7 @@ input, select, textarea {
 					margin-bottom: 20px;
 				}
 	
-				.gallery article:nth-last-child(4n) {
-					-moz-transition-delay: 0.2s;
-					-webkit-transition-delay: 0.2s;
-					-ms-transition-delay: 0.2s;
-					transition-delay: 0.2s;
-					order: 4;
-				}
-	
-				.gallery article:nth-last-child(5n) {
+				.gallery article:nth-last-child(7n) {
 					-moz-transition-delay: 0.2s;
 					-webkit-transition-delay: 0.2s;
 					-ms-transition-delay: 0.2s;
@@ -2110,27 +2102,11 @@ input, select, textarea {
 					margin-bottom: 20px;
 				}
 	
-				.gallery article:nth-last-child(5n) {
-					-moz-transition-delay: 0.25s;
-					-webkit-transition-delay: 0.25s;
-					-ms-transition-delay: 0.25s;
-					transition-delay: 0.25s;
-					order: 2;
-				}
-	
-				.gallery article:nth-last-child(6n) {
-					-moz-transition-delay: 0.25s;
-					-webkit-transition-delay: 0.25s;
-					-ms-transition-delay: 0.25s;
-					transition-delay: 0.25s;
-					order: 1;
-				}
-	
-				.gallery article:nth-last-child(6n) {
-					-moz-transition-delay: 0.3s;
-					-webkit-transition-delay: 0.3s;
-					-ms-transition-delay: 0.3s;
-					transition-delay: 0.3s;
+				.gallery article:nth-last-child(8n) {
+					-moz-transition-delay: 0.2s;
+					-webkit-transition-delay: 0.2s;
+					-ms-transition-delay: 0.2s;
+					transition-delay: 0.2s;
 					order: 1;
 				}
 
