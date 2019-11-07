@@ -2469,28 +2469,86 @@ input, select, textarea {
 
 	#intro {
 		background: url("images/overlay.png"), url("../../images/aperture-vintage-SshYpuf607g-unsplash.jpg");
-		background-size: 256px 256px, cover;
+		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
 	}
+	
+	@media screen and (max-width: 1280px) { 
+		#intro {
+			background: url("images/overlay.png"), url("../../images/aperture-vintage-SshYpuf607g-unsplash_medium.jpg");
+			background-size: cover;
+			background-attachment: fixed, fixed;
+			background-position: top left, bottom center;
+			background-repeat: repeat, no-repeat;
+		}
+	}
+	@media screen and (max-width: 812px) { 
+		#intro {
+			background: url("images/overlay.png"), url("../../images/aperture-vintage-SshYpuf607g-unsplash_small.jpg");
+			background-size: cover;
+			background-attachment: fixed, fixed;
+			background-position: top left, bottom center;
+			background-repeat: repeat, no-repeat;
+		}
+	}
+
 
 /* One */
 
 	#one {
 		background: url("images/overlay.png"), url("../../images/jj-ying-7JX0-bfiuxQ-unsplash.jpg");
-		background-size: 256px 256px, cover;
+		background-size: cover;
+		background-repeat: no-repeat;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 
+	@media screen and (max-width: 1280px) {
+		#one {
+			background: url("images/overlay.png"), url("../../images/jj-ying-7JX0-bfiuxQ-unsplash_medium.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed, fixed;
+			background-position: top left, center center;
+		}
+	}
+
+	@media screen and (max-width: 812px) {
+		#one {
+			background: url("images/overlay.png"), url("../../images/jj-ying-7JX0-bfiuxQ-unsplash_small.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed, fixed;
+			background-position: top left, center center;
+		}
+	}
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/sean-lim-NPlv2pkYoUA-unsplash.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
+			background: url("images/overlay.png"), url("../../images/sean-lim-NPlv2pkYoUA-unsplash.jpg");
+			background-size: cover;
+			background-attachment: fixed, fixed;
+			background-position: top left, center center;
+	}
+
+	@media screen and (max-width: 1280px) {
+		#two {
+			background: url("images/overlay.png"), url("../../images/sean-lim-NPlv2pkYoUA-unsplash_medium.jpg");
+			background-size: cover;
+			background-attachment: fixed, fixed;
+			background-position: top left, center center;
+		}
+	}
+
+	@media screen and (max-width: 812px) {
+		#two {
+			background: url("images/overlay.png"), url("../../images/sean-lim-NPlv2pkYoUA-unsplash_small.jpg");
+			background-size: cover;
+			background-attachment: fixed, fixed;
+			background-position: top left, center center;
+		}
 	}
 
 /* Contact */
